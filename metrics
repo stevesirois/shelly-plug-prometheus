@@ -15,7 +15,7 @@ $generation = getenv('SHELLY_GENERATION');
 $switch_id = getenv('SHELLY_SWITCH_ID');
 
 if ($generation === false) {
-  $generation = 1;
+  $generation = 3;
 }
 
 if ($switch_id === false) {
