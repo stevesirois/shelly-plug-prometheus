@@ -31,6 +31,10 @@ switch ($generation) {
   case 2:
     require "shellygen2";
     break;
+  
+  case 3:
+    require "shellygen1pm";
+    break;
 }
 
 ?>
